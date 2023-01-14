@@ -1,0 +1,264 @@
+:root {
+  --them-bg: #f4f4f4;
+  --them-color-cyan: #00aeef;
+  --them-color-orange: #ec5b53;
+  --them-color-hover: #dc3545;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.text-end {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+.tex-start {
+  text-align: left;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.img-fluid {
+  max-height: 75px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  list-style: none;
+  position: relative;
+}
+
+.menu li:hover .dropdown-menu {
+  display: block;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+  transition: 0.3s all ease-in-out;
+}
+
+.menu a:hover {
+  color: var(--them-color-orange);
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 150px;
+  background: white;
+  box-shadow: 0 3px 10px silver;
+  padding: 15px;
+  border-radius: 0 0 5px 5px;
+  top: 22px;
+  left: 70%;
+  transform: translate(-50%);
+  display: none;
+  transition: 6s all ease-in-out;
+}
+
+.dropdown-menu li {
+  position: relative;
+  padding: 6px 0 6px 15px;
+}
+
+.dropdown-menu li:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown-menu li a {
+  display: block;
+  font-size: 13px;
+  text-align: left;
+}
+
+.dropdown-menu li a:hover {
+  margin-left: 10px;
+}
+
+.get-free-button {
+  background: var(--them-color-orange);
+
+  border: 2px solid var(--them-color-orange);
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.get-free-button:hover {
+  background: var(--them-color-hover);
+  color: var(--them-color-orange);
+}
+
+#menu_area {
+  border: 1px solid silver;
+  padding: 25px 0;
+}
+
+#slider_area {
+  border: 1px solid silver;
+  padding: 250px 0;
+  /*background-color: lightblue;
+  background-image: url('paper.gif');*/
+  background: lightblue;
+
+  width: 100%;
+  min-height: 125px;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+}
+
+.my-div {
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  width: 50%;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-hero {
+  padding: 27px 44px;
+  color: rgb(255, 255, 255);
+  background-color: var(--them-color-orange);
+  font-family: Rubik, sans-serif;
+  border: 2px solid silver;
+  border-radius: 10px;
+  font-size: 18px;
+
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 0;
+  transition: all 0.4s linear 0s;
+  border: 0px;
+  overflow: hidden;
+  margin: 0px 2px 0px 0px;
+  z-index: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.border-btn {
+  padding: 27px 44px;
+  color: rgb(70, 77, 101);
+  background: none;
+  border: 1px solid rgb(175 42 42);
+  font-family: Rubik, sans-serif;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 0;
+  transition: color 0.4s linear 0s;
+  z-index: 1;
+  cursor: pointer;
+
+  text-align: center;
+
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0px 0px 2px;
+}
+
+.content button:hover {
+  background-color: var(--them-color-hover);
+  color: var(--them-color-orange);
+}
+
+.cn1 {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: rgb(236, 91, 83);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.cn2 {
+  font-family: Rufina, serif;
+  margin-top: 0px;
+  font-style: normal;
+  line-height: 1.2;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(0, 45, 91);
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 29px;
+}
+
+.my-logo {
+  position: absolute;
+  width: 50%;
+  left: 56%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.my-logo img {
+  width: 50%;
+  height: 250px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media only screen and(max-width:400px) {
+  .container {
+    width: 95%;
+  }
+}
