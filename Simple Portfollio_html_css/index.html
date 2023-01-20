@@ -1,78 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfollio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
   </head>
-
   <body>
-    <!------------------Menu Bar--------------------->
-    <section id="menu_area">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-3">
-            <a href="index.html"
-              ><img src="frontend/img/portfolio.png" class="img-fluid" alt="#"
-            /></a>
-          </div>
-          <div class="col-6 text-center">
-            <ul class="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Portfollio</a></li>
-              <li>
-                <a href="#" class=""
-                  >Pages
-                  <ul class="dropdown-menu">
-                    <li><a href="pages/blog.html">Blog</a></li>
-                    <li><a href="pages/blogdetails.html">Blog Details</a></li>
-                    <li><a href="pages/element.html">Element</a></li>
-                    <li>
-                      <a href="pages/portfoliodetails.html"
-                        >Portfolio Details</a
-                      >
-                    </li>
-                  </ul>
-                </a>
-              </li>
-              <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-3 text-end">
-            <a href="#"
-              ><button class="get-free-button">Get free Consultent</button></a
-            >
-          </div>
-        </div>
+    <!-- nav -->
+    <nav>
+      <div>
+        <img style="width: 50px" src="./assets/images/logo.png" alt="logo" />
       </div>
-    </section>
+      <!-- Links -->
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/">About</a>
+        </li>
+        <li>
+          <a href="/">Services</a>
+        </li>
 
-    <!-------------------Main content--------------------------->
-    <section id="slider_area">
-      <div class="my-div align-items-center">
-        <div class="content tex-start">
-          <span class="cn1">GET EVERY SINGLE SOLUTIONS</span>
-          <h1 class="cn2">Rakib Mahmud Mridha, Software Engineer.</h1>
+        <li>
+          <a href="/">Portfolio</a>
+        </li>
+        <li>
+          <a href="/">Page</a>
+        </li>
+
+        <li>
+          <a href="/">Contact</a>
+        </li>
+      </ul>
+      <!-- btn -->
+      <button>Get Free Consultation</button>
+    </nav>
+    <!-- end nav -->
+
+    <main>
+      <!-- Header -->
+      <header>
+        <!-- desc -->
+        <div>
+          <small> Get Single Solution </small>
+          <h1>I'm Emma, Fullstack Web Developer</h1>
           <p>
-            I am a student of Software Engineering background. Skilled in
-            algorithm, data structures, ethical hacking & penetration testing.
-            Also have some experience in web development with bootstrap, js and
-            php.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            at reprehenderit fuga totam debitis distinctio facere, animi,
+            obcaecati repellat minima similique iure impedit facilis consectetur
+            esse illo inventore accusantium doloremque?
           </p>
-          <button class="btn btn-hero">Learn More</button>
-          <button class="btn border-btn">Hire Me</button>
+        </div>
+        <!-- buttons -->
+        <div>
+          <button>Learn More</button>
+          <button>Hire</button>
         </div>
 
-        <div class="my-logo text-end">
-          <img src="frontend/img/rakib.png" alt="" />
+        <!-- img -->
+        <div>
+          <img
+            style="width: 500px"
+            src="./assets/images/portfolio.png"
+            alt=""
+          />
         </div>
-      </div>
-    </section>
+      </header>
+      <!--end Header -->
+
+      <!-- quote -->
+      <section>
+        <!-- left quote -->
+        <div>
+          <h2>Design With Passion While Exploring The World</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            tempora nihil obcaecati excepturi commodi esse consequatur? Unde
+            accusantium, consectetur consequatur commodi excepturi placeat iste
+            doloribus fugiat ex maiores rerum labore!
+          </p>
+        </div>
+
+        <!-- right quote -->
+        <div>
+          <h1>Ant Type of Query & Discussion</h1>
+          <p>Late talk with me</p>
+          <a href="mailto:enquiries@emma.com">enquiries@emma.com</a>
+        </div>
+      </section>
+      <!-- end quote -->
+    </main>
   </body>
 </html>
