@@ -7,6 +7,10 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 .orange-color {
   color: orange;
 }
@@ -42,7 +46,35 @@ h1 {
 }
 
 .dream-big {
-  background-image: url(../assets/images/backgroun-img.avif);
+  background-image: url(../assets/images/header_bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-area {
+  background-image: url(../assets/images/header_bg.png);
+  background-repeat: no-repeat;
+  /* background-position: right; */
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  box-shadow: 10px 10px 40pc gray;
+  border-radius: 10px;
+  border-left: 5px solid blue;
+}
+
+#fullstack-developer {
+  border-left: 7px solid tomato;
+}
+
+#frontend-developer {
+  border-left: 7px solid blue;
+}
+
+footer p {
+  text-align: center;
 }
